@@ -111,11 +111,11 @@ h1 {
   }
 
   .form input[type='text'] {
-    width: 50%;
+    width: 60%;
   }
 
   .form input[type='submit'] {
-    width: 20%;
+    width: 30%;
   }
 
   .container {
