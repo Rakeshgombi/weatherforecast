@@ -7,7 +7,7 @@ const cityTemp = document.querySelector('.temp');
 const time = document.querySelector('.time');
 
 
-fetch('http://api.openweathermap.org/data/2.5/weather?q=Hubballi&appid=8fd2c8c3f08385cf838e8f1e71033db5')
+fetch('https://api.openweathermap.org/data/2.5/weather?q=Hubballi&appid=8fd2c8c3f08385cf838e8f1e71033db5')
   .then(response => response.json())
   .then(data => {
     // Displaying Whether
